@@ -16,7 +16,7 @@ export const Header = (props: Props) => {
     const id = e.target.href.split("/").pop();
     onClick?.(id);
   };
-console.log("here")
+
   const className = classNames("header", {
     header_scrolled: isScrolled,
   });
