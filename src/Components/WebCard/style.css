@@ -1,0 +1,30 @@
+.webcard {
+  margin: 10px 20px;
+  height: 180px;
+  width: 180px;
+}
+.webcard_image {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.webcard_image img {
+  height: 150px;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+.webcard_image a {
+  width: inherit;
+  height: inherit;
+}
+.webcard_image__title {
+  margin-top: 10px;
+  text-align: center;
+}

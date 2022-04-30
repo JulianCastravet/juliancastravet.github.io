@@ -1,0 +1,29 @@
+.button {
+  align-self: stretch;
+  border: 1px solid red;
+  padding: 20px 27px;
+  background-color: red;
+  border-radius: 30px;
+  transition: all 0.2s linear;
+  width: fit-content;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: grey;
+  border-color: grey;
+  cursor: pointer;
+}
+.button_link {
+  background-color: rgb(32, 187, 226);
+  border-color: rgb(32, 187, 226);
+}
+
+@media screen and (max-width: 1315px) {
+  .button {
+    padding: 5px 9px;
+    margin-right: 10px;
+  }
+}

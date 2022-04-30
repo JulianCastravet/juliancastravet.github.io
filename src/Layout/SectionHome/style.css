@@ -1,0 +1,24 @@
+.section_home {
+  height: 100vh;
+  background: linear-gradient(333deg, rgba(150, 150, 150, 1) 0%, #3d3d3d 45%);
+}
+.content_home {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: calc(100% - var(--var2, 50px));
+}
+.intro_main {
+  width: 50%;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+}
+.intro_name {
+  font-style: oblique;
+}
+.intro_secondary {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}

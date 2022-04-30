@@ -1,0 +1,121 @@
+.section_contacts {
+  height: 100vh;
+  background: linear-gradient(207deg, rgba(150, 150, 150, 1) 0%, #3d3d3d 45%);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  justify-content: center;
+  right: -50%;
+}
+.contacts_title {
+  margin-top: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+.contacts_title_inner {
+  font-size: 24px;
+}
+.contacts_container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+.contacts_container_form {
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  width: 50%;
+
+  font-size: 20px;
+}
+.contacts_form {
+  display: grid;
+  min-height: 50px;
+}
+.contacts_form .input {
+  margin: 20px 0;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #333333;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  outline: none;
+  text-indent: 10px;
+}
+.contacts_form .input::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.contacts_form .input:focus {
+  background-color: #404040;
+}
+.input.textarea {
+  height: 115px;
+  resize: none;
+  line-height: 2;
+}
+.contact_submit {
+  border: green;
+  background-color: green;
+  margin: 0 auto;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 0;
+  color: white;
+}
+.contact_submit:hover {
+  background-color: #43bb43;
+  border: #43bb43;
+  cursor: pointer;
+}
+.contacts_details {
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  width: 50%;
+  height: 460px;
+  font-size: 20px;
+}
+.contacts_details_data {
+  margin-top: 45px;
+  margin-left: 50px;
+  text-align: left;
+}
+.details_data_private {
+  margin-bottom: 20px;
+}
+.details_data_label {
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  color: #20bbe2;
+}
+.details_data_private p {
+  margin: 0;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 820px) {
+  .contacts_title_inner {
+    font-size: 20px;
+  }
+  .contacts_details,
+  .contacts_form {
+    font-size: 15px;
+  }
+  .contacts_details .contacts_title_inner {
+    margin-left: 15px;
+  }
+  .details_data_label {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,9 @@
+.page-footer {
+  background-color: #3d3d3d;
+  padding-bottom: 50px;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
