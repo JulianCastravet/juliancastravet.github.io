@@ -11,7 +11,7 @@ export const WebCard = (props: Props) => {
     <div className="webcard">
       <div className="webcard_image">
         <a href="/">
-          <img src={imageSrc} alt="/" />
+          <img src={imageSrc} alt="imagePlaceholder" />
         </a>
       </div>
       <div className="webcard_image__title">{title}</div>

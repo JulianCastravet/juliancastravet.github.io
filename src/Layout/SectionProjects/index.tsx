@@ -2,6 +2,8 @@ import "./style.css";
 import projects from "../../utils/projects.json";
 import { WebCard } from "../../Components/WebCard/WebCard";
 import { useCallback, useState } from "react";
+//@ts-expect-error
+import img from "../../images/comingSoon.jpg";
 
 export const SectionProjects = (): JSX.Element => {
   const [elems, setElems] = useState(projects);
@@ -28,9 +30,7 @@ export const SectionProjects = (): JSX.Element => {
 
         <div className="projects_cards">
           {elems.map((item) => {
-            return (
-              <WebCard key={item.id} title={item.title} imageSrc={item.src} />
-            );
+            return <WebCard key={item.id} title={item.title} imageSrc={img} />;
           })}
         </div>
       </div>

@@ -89,13 +89,13 @@ export const SectionContacts = () => {
               </div>
               <div className="details_data_private">
                 <div className="details_data_label">PHONE</div>
-                <div className="details_data_data">+39 327 8638886</div>
+                <div className="details_data_data">+39 327 *******</div>
               </div>
 
               <div className="details_data_private">
                 <div className="details_data_label">ADDRESS</div>
                 <div className="details_data_data">
-                  <p>3, Pio Poletti street</p>
+                  <p>--- --- ----- street</p>
                   <p>48123 Ravenna, RA</p>
                   <p>Emilia-Romagna, Italy</p>
                 </div>
